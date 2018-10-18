@@ -47,9 +47,9 @@ The following arguments are supported:
 * `base_allow_deny` - (Optional) New base policy. Valid Value: "allow-all", "deny-all".
 * `base_log_enable` - (Optional) Indicates whether enable logging or not. Valid Value: "on", "off"
 * `policy` - (Optional) New access policy for the gateway. Type: String (valid JSON). 6 fields are required for each policy item: src_ip, dst_ip, protocol, port, allow_deny, log_enable. Valid values are 
-** `src_ip` - CIDRs separated by comma or tag names such "HR" or "marketing" etc.  e.g.: "10.30.0.0/16,10.45.0.0/20".
-** `dst_ip` - CIDRs separated by comma or tag names such "HR" or "marketing" etc.  e.g.: "10.30.0.0/16,10.45.0.0/20".
-** `protocol`: "all", "tcp", "udp", "icmp", "sctp", "rdp", "dccp".
-** `port`: a single port or a range of port numbers. e.g.: "25", "25:1024".
-** `allow_deny`: "allow" and "deny"
-** `log_enable`: "on" and "off"
+  * `src_ip` - CIDRs separated by comma or tag names such "HR" or "marketing" etc.  e.g.: "10.30.0.0/16,10.45.0.0/20".
+  * `dst_ip` - CIDRs separated by comma or tag names such "HR" or "marketing" etc.  e.g.: "10.30.0.0/16,10.45.0.0/20".
+  * `protocol`: "all", "tcp", "udp", "icmp", "sctp", "rdp", "dccp".
+  * `port`: a single port or a range of port numbers. e.g.: "25", "25:1024".
+  * `allow_deny`: "allow" and "deny"
+  * `log_enable`: "on" and "off"
