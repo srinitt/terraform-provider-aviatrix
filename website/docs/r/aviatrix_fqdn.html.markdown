@@ -44,5 +44,5 @@ The following arguments are supported:
 * `gw_list` - (Optional) Name of the gateway. One or more gateways as list ["gw1", "gw2"]
 * `domain_list` - (Optional) One or more domain names in a list with details as listed below
     * `fqdn` - (Optional) FQDN. Example: "facebook.com" 
-    * `proto` - (Optional) Protocol. Example "tcp" 
+    * `proto` - (Optional) Protocol. Valid values: "tcp", "udp", "icmp" 
     * `port` - (Optional) Port. Example "25" 
