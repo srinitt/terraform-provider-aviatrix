@@ -8,7 +8,7 @@ description: |-
 
 # aviatrix_spoke_vpc
 
-The SpokeVpc resource allows to set Aviatrix Spoke Gateway
+The SpokeVpc resource allows to manage Aviatrix Spoke Gateway
 
 ## Example Usage
 
