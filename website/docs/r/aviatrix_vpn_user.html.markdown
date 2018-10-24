@@ -6,7 +6,7 @@ description: |-
   Manages the Aviatrix VPN Users
 ---
 
-# aviatrix_upgrade
+# aviatrix_vpn_user
 
 The AviatrixVPNUser resource manages the VPN Users
 
@@ -27,6 +27,6 @@ resource "aviatrix_vpn_user" "test_vpn_user" {
 The following arguments are supported:
 
 * `vpc_id` - (Required) VPC Id of Aviatrix VPN gateway. Example: "vpc-abcd1234"
-* `gw_name` - (Required) Aviatrix VPN gateway name. Example: "gw1"
+* `gw_name` - (Required) If ELB is enabled, this will be the name of the ELB, else it will be the name of the Aviatrix VPN gateway. Example: "gw1"
 * `user_name` - (Required) VPN user name. Example: "user"
 * `user_email` - (Required) VPN User's email. Example: "abc@xyz.com"
